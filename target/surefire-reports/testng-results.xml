@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="78305" started-at="2020-10-27T18:34:51Z" finished-at="2020-10-27T18:36:10Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="78305" started-at="2020-10-27T18:34:51Z" finished-at="2020-10-27T18:36:10Z">
+      <class name="testMavenProjectSelenium001.TestNGSeleniumSimpleSearchExample">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumSimpleSearchExample@52a86356]" name="initDriver" is-config="true" duration-ms="5443" started-at="2020-10-27T21:34:46Z" finished-at="2020-10-27T21:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="searchTestNGInGoogle()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumSimpleSearchExample@52a86356]" name="searchTestNGInGoogle" duration-ms="12791" started-at="2020-10-27T21:35:57Z" finished-at="2020-10-27T21:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestNGInGoogle -->
+      </class> <!-- testMavenProjectSelenium001.TestNGSeleniumSimpleSearchExample -->
+      <class name="testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample@18eed359]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2020-10-27T21:35:38Z" finished-at="2020-10-27T21:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample@18eed359]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="7" started-at="2020-10-27T21:35:38Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-27T21:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="printBrowserUsed()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample@18eed359]" name="printBrowserUsed" is-config="true" duration-ms="4716" started-at="2020-10-27T21:35:38Z" finished-at="2020-10-27T21:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBrowserUsed -->
+        <test-method status="PASS" signature="searchTestNGInGoogle()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample@18eed359]" name="searchTestNGInGoogle" duration-ms="13900" started-at="2020-10-27T21:35:43Z" finished-at="2020-10-27T21:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestNGInGoogle -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample@18eed359]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-10-27T21:35:43Z" finished-at="2020-10-27T21:35:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample.searchTestNGInGoogle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample@18eed359]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-10-27T21:35:57Z" finished-at="2020-10-27T21:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample.searchTestNGInGoogle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample@18eed359]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-27T21:35:57Z" finished-at="2020-10-27T21:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample -->
+      <class name="testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-27T21:34:51Z" finished-at="2020-10-27T21:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5132" started-at="2020-10-27T21:34:51Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-27T21:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="printBrowserUsed()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="printBrowserUsed" is-config="true" duration-ms="4900" started-at="2020-10-27T21:34:56Z" finished-at="2020-10-27T21:35:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBrowserUsed -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-10-27T21:35:01Z" finished-at="2020-10-27T21:35:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample.searchGoogle(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="searchGoogle(java.lang.String)[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="searchGoogle" duration-ms="23733" started-at="2020-10-27T21:35:01Z" data-provider="searchStrings" finished-at="2020-10-27T21:35:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestNG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="2" started-at="2020-10-27T21:35:25Z" finished-at="2020-10-27T21:35:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample.searchGoogle(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="searchGoogle(java.lang.String)[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="searchGoogle" duration-ms="13112" started-at="2020-10-27T21:35:25Z" data-provider="searchStrings" finished-at="2020-10-27T21:35:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-10-27T21:35:25Z" finished-at="2020-10-27T21:35:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample.searchGoogle(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-27T21:35:38Z" finished-at="2020-10-27T21:35:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample.searchGoogle(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-27T21:35:38Z" finished-at="2020-10-27T21:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample@185d8b6]" name="quitDriver" is-config="true" duration-ms="1537" started-at="2020-10-27T21:36:10Z" finished-at="2020-10-27T21:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumDriverInjectionExample@18eed359]" name="quitDriver" is-config="true" duration-ms="1839" started-at="2020-10-27T21:36:11Z" finished-at="2020-10-27T21:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:testMavenProjectSelenium001.TestNGSeleniumSimpleSearchExample@52a86356]" name="quitDriver" is-config="true" duration-ms="1264" started-at="2020-10-27T21:36:13Z" finished-at="2020-10-27T21:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

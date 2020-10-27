@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNgSeleniumSuite" parallel="false">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="driverPath" value="D://\geckodriver/chromedriver.exe"></parameter>
+    <test name="TestNgSeleniumTest">
+        <classes>
+            <class
+                name="testMavenProjectSelenium001.TestNGSeleniumDataDrivenSearchExample" />
+        </classes>
+    </test>
+</suite>
